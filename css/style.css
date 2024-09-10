@@ -1,0 +1,56 @@
+@font-face {
+    font-family: "Poké";
+    src: url(../img/Pokemon_Solid.ttf) format(truetype);
+}
+
+/* Ajoute la font poke aux titres */
+h1 {
+    font-family: "Poké";
+    color: red;
+    text-shadow: 2px 2px 0px white;
+}
+h2 {
+    font-family: "Poké";
+    color: rgb(0, 255, 255);
+    letter-spacing: 1rem;
+    text-shadow: 2px 2px 0px white;
+}
+
+/* MEF du message erreur */
+#error-message{
+    font-family: "Poké";
+    color: red;
+    letter-spacing: 0.6rem;
+    text-shadow: 2px 2px 0px white;
+}
+
+/* Pour les champs de saisie de type nombre */
+/* Cacher les boutons de spin dans Chrome, Safari, Edge, et autres navigateurs WebKit */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+/* Pour Firefox */
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+/* Cacher les div qui se completent en JS */
+.hidden {
+    display: none;
+}
+
+/* MEF des div poke */
+
+#pokemon-image {
+    border: 3px dashed white;
+    border-radius: 10px;
+    height: 150px;
+    width: auto;
+}
+#pokemon-description{
+    font-size: 1.3rem;
+    font-weight: bolder;
+    text-align: center;
+}
